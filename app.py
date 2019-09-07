@@ -34,7 +34,7 @@ def register():
         reddit = praw.Reddit(client_id='WBTxS7rybznf7Q', client_secret='vJUTUflXITBsQMxeviOfG8mCZoA', user_agent='projectreddit', username='Mysterious_abhE', password='Saxena0705')
         #loaded_model = pickle.load(open('finalized_model.sav', 'rb'))
 
-        filename='Regressor_model.sav'
+        filename='Regressor_model_final.pkl'
 
         loaded_model =pickle.load(open(filename, 'rb'))
 
